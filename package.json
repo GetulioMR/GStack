@@ -1,0 +1,62 @@
+{
+  "name": "gstack",
+  "version": "1.0.0",
+  "description": "Development Stack for sites in HTML + CSS + JS.",
+  "title": "G-Stack",
+  "homepage": "https://www.linkedin.com/in/getulio-monteiro-ribeiro/",
+  "author": {
+    "name": "Getulio Monteiro Ribeiro",
+    "url": "https://www.linkedin.com/in/getulio-monteiro-ribeiro/"
+  },
+  "serveDev": {
+    "server": "./build",
+    "port": 3000,
+    "notify": true
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/wpbrasil/odin"
+  },
+  "scripts": {
+    "dev": "gulp server",
+    "build": "gulp"
+  },
+  "engines": {
+    "node": ">= 8.9.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.1.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-header": "2.0.5",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.11.0",
+    "jshint-stylish": "^2.2.1",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.6",
+    "bootstrap": "^4.4.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.0.2",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-optipng": "^7.1.0",
+    "imagemin-svgo": "^7.1.0",
+    "jquery": "^3.3.1",
+    "optipng-bin": "^6.0.0",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.16.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

@@ -1,0 +1,14 @@
+//
+// Theme Style Main
+//
+
+// Variables, tools and mixins
+@import 'theme/abstracts';
+
+// Dependencies and vendors
+@import	'vendors/bootstrap';
+@import	'vendors/font-awesome';
+@import	'vendors/owl-carousel';
+
+// Components
+@import "../../components/**/*";

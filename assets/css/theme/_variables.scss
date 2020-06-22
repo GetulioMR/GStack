@@ -1,0 +1,72 @@
+//
+// Theme Sass variables
+//
+
+//
+// Bootstrap 4.
+//
+// Try add value to $body-bg or $body-color variables
+// @link http://getbootstrap.com/docs/4.0/getting-started/theming
+//
+$primary: #df912f;
+$secondary: #214128;
+$hover: #ffb14f;
+$black: black;
+$white: white;
+$grey: grey;
+$radius: 10px;
+$transition: .3s;
+$title: 32px;
+$text: 24px;
+$title_mobile: 28px;
+$text_mobile: 16px;
+$text_footer: 18px;
+$hero_title: 46px;
+
+//
+// Font Awesome 5.
+//
+$fa-font-path: '../fonts/';
+$fa-font-size-base: 16px;
+$fa-css-prefix: fa;
+$fa-border-color: #eee;
+$fa-inverse: #fff;
+$fa-li-width: 2em;
+
+//
+// WordPress Admin.
+//
+$wp-login-bg: $secondary;
+$wp-login-logo: '../../dist/img/longevus-admin__logo.png';
+$wp-login-logo-width: 255px;
+$wp-login-logo-height: 60px;
+$wp-login-color: white;
+
+//
+// App Components.
+//
+
+// Navigation Topbar Component.
+$odin-navigation-topbar-bg: $primary;
+$odin-navigation-topbar-color: #e9ecef;
+$odin-navigation-topbar-link-color: #ffffff;
+$odin-navigation-topbar-brand-logo-height: 50px;
+$odin-navigation-topbar-brand-logo-width: auto;
+$odin-navigation-topbar-formSearch-color: #ffffff;
+$odin-navigation-topbar-formSearch-bg: none;
+$odin-navigation-topbar-formSearch-border-color: #ffffff;
+$odin-navigation-topbar-formSearch-placeholder-color: rgba(255, 255, 255, 0.6);
+
+// Navigation Main Component.
+$odin-navigation-main-bg: $primary;
+$odin-navigation-main-color: #e9ecef;
+$odin-navigation-main-link-color: #ffffff;
+
+// Banner Component.
+$odin-banner-height: 400px;
+$odin-banner-bg: darken($primary,10%);
+$odin-banner-color: #f8f9fa;
+
+// Sidebar Component.
+$odin-sidebar-bg: #e9ecef;
+$odin-sidebar-color: #343a40;
