@@ -194,7 +194,7 @@ gulp.task('watch', function(done) {
   gulp.watch(config.images.src, gulp.series('img:build')).on('change', browserSync.reload);
   gulp.watch(config.css.src, gulp.series('css:build')).on('change', browserSync.reload);
   gulp.watch(config.js.src, gulp.series('js:build')).on('change', browserSync.reload);
-  gulp.watch(config.html.src, gulp.series('html:build')).on('change', browserSync.reload);
+  gulp.watch([config.html.src, 'components/**/' + config.html.src], gulp.series('html:build')).on('change', browserSync.reload);
 });
 
 // Compile, init serve and watch files

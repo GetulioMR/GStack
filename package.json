@@ -15,11 +15,11 @@
   },
   "license": {
     "type": "MIT",
-    "url": "http://opensource.org/licenses/MIT"
+    "url": "https://opensource.org/licenses/MIT"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/wpbrasil/odin"
+    "url": "https://github.com/GetulioMR/GStack"
   },
   "scripts": {
     "dev": "gulp server",
